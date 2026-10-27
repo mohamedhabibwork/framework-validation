@@ -1,0 +1,26 @@
+{
+  "name": "@framework/validation",
+  "version": "0.2.0",
+  "description": "Request validation middleware and typed form requests powered by Hono and Zod.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/mohamedhabibwork/framework-validation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhabibwork/framework.git",
+    "directory": "packages/validation"
+  },
+  "bugs": {
+    "url": "https://github.com/mohamedhabibwork/framework/issues"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@framework/http": "workspace:*",
+    "@hono/zod-validator": "0.9.1",
+    "hono": "4.13.13",
+    "zod": "4.6.7"
+  }
+}
